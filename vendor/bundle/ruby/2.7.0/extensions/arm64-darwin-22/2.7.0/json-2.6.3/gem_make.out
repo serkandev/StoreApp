@@ -1,0 +1,16 @@
+current directory: /Users/serkanm2/Desktop/StoreApp/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+/Users/serkanm2/.rbenv/versions/2.7.6/bin/ruby -I /Users/serkanm2/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20230907-60658-1vi3zdl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/serkanm2/Desktop/StoreApp/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /Users/serkanm2/Desktop/StoreApp/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+linking shared-object json/ext/generator.bundle
+ld: building for iOS Simulator, but linking in dylib built for macOS, file '/Users/serkanm2/.rbenv/versions/2.7.6/lib/libruby.2.7.dylib' for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [generator.bundle] Error 1
+
+make failed, exit code 2
